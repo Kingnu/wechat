@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@vant/weapp": "^1.11.2",
+    "tdesign-miniprogram": "^1.2.6"
+  }
+}

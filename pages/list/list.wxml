@@ -1,0 +1,26 @@
+<navigation-bar back title="动态" class="title"></navigation-bar>
+
+<van-search value="{{ value }}" placeholder="请输入搜索关键词" />
+
+<scroll-view
+ scroll-y
+ style="flex: 1; width: 100%; overflow: hidden; padding: {{padding}}px; padding-bottom: 0;"
+ type="custom"
+ show-scrollbar="{{false}}"
+>
+  <grid-view
+    type="masonry"
+    cross-axis-count="2"
+    cross-axis-gap="4"
+    main-axis-gap="4"
+  >
+    <card
+      wx:for="{{gridList}}"
+      wx:key="id"
+      card-width="{{cardWidth}}"
+      index="{{index}}"
+      item="{{item}}"
+    />
+  </grid-view>
+</scroll-view>
+

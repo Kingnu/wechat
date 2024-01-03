@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "navigation-bar": "../../components/navigation-bar/index",
+    "card": "../../components/card/card",
+    "van-search": "@vant/weapp/search/index"
+  },
+  "disableScroll": true,
+  "navigationStyle": "custom"
+}
